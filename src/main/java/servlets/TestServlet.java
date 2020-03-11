@@ -21,7 +21,7 @@ public class TestServlet extends HttpServlet {
         //通过容器获取test实例
         TestDao tt = (TestDao)appCon.getBean("test");
         tt.sayHello();
-        response.getWriter().println("you have successed！李红博 201707222 ");
+        response.getWriter().println("you have successed！李红博 201707222 我爱学习 学习使我快乐 ");
     }
 
     @Override
